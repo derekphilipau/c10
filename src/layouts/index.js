@@ -7,9 +7,9 @@ import Footer from "../components/Footer";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+  <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey">
     <Helmet
-      title="Gatsby Starter Tailwind"
+      title="c10 consulting"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
