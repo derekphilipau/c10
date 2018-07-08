@@ -1,7 +1,21 @@
 import React from "react";
+import ContactForm from "../Form/contact.js";
 
 const Footer = () => (
-  <div className="bg-grey-darkest">
+  <div className="bg-black pt-8">
+    <div className="flex items-stretch justify-between p-4 text-sm">
+      <div className="w-2/3 p-4">
+        <h3 className="uppercase mb-4">Get in touch</h3>
+        <p className="mb-4">
+        Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
+        </p>
+        <ContactForm />
+      </div>
+      <div className="w-1/3 p-4">
+        Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae ornare massa, at consequat ipsum. Sed ullamcorper, dui consequat vehicula volutpat dolor.
+      </div>
+    </div>
     <div className="flex items-center justify-between p-4 text-sm">
       <div className="">
         <p className="hover:text-white text-grey-light font-hairline">
