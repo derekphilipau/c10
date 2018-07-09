@@ -13,7 +13,7 @@ const Header = () => {
   return (
 
 
-    <nav className="z-10 sticky pin-t flex flex-wrap items-stretch justify-between bg-grey-darkest px-8 py-3">
+    <nav className="z-10 sticky pin-t flex flex-wrap items-stretch justify-between bg-black px-8 py-3">
 
       <a className="block flex items-center no-underline hover:text-white text-grey-dark" href="/">
         <svg className="fill-current w-8 h-8" style={{fill: '#f6993f'}} viewBox="0 0 100 100">
