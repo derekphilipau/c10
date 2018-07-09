@@ -5,15 +5,28 @@ const ContactForm = () => (
   <form className="mx-auto">
     <label
       className="block font-bold mb-2 text-xs uppercase"
-      htmlFor="first-name"
+      htmlFor="name"
     >
       Name
     </label>
     <input
       className="appearance-none block bg-black border border-grey-darkest mb-6 p-3 rounded-md text-grey w-full"
-      id="first-name"
+      id="name"
       type="text"
-      placeholder="Bill"
+      placeholder="Name"
+    />
+
+    <label
+      className="block font-bold mb-2 text-xs uppercase"
+      htmlFor="email"
+    >
+      Email Address
+    </label>
+    <input
+      className="appearance-none block bg-black border border-grey-darkest mb-6 p-3 rounded-md text-grey w-full"
+      id="email"
+      type="text"
+      placeholder="Email Address"
     />
 
     <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">

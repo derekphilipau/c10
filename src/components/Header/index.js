@@ -13,7 +13,7 @@ const Header = () => {
   return (
 
 
-    <nav className="sticky pin-t flex flex-wrap items-center justify-between bg-grey-darkest p-6">
+    <nav className="z-10 sticky pin-t flex flex-wrap items-stretch justify-between bg-grey-darkest p-6">
 
       <svg style={{fill: '#b8c2cc'}} width="100" height="100">
         <path id="svg_3" d="m27.796,41.026l0,-3.801l15.063,-11.051l0,46.947l-3.731,0l0,-40.19l-11.332,8.095z"/>
