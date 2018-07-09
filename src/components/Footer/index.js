@@ -3,15 +3,15 @@ import ContactForm from "../Form/contact.js";
 
 const Footer = () => (
   <div className="bg-black pt-8">
-    <div className="flex items-stretch justify-between p-4 text-sm">
-      <div className="w-1/3 p-4">
+    <div className="flex flex-wrap flex-row items-stretch justify-between p-4 text-sm">
+      <div className="w-full md:w-1/3 px-4 mb-8 flex-auto">
         <h3 className="uppercase mb-6 pb-4 border-b">Get in touch</h3>
         <p className="mb-4">
         Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
         </p>
         <ContactForm />
       </div>
-      <div className="w-1/3 p-4">
+      <div className="w-full md:w-1/3 px-4 mb-8 flex-none">
         <h3 className="uppercase mb-4 pb-4 border-b">
           Contact Info
         </h3>
@@ -35,6 +35,9 @@ const Footer = () => (
             <svg className="fill-current w-6 h-6" viewBox="0 0 894.5 894" aria-labelledby="fjsi-ant-pushpin-o-title" id="si-ant-pushpin-o" width="100%" height="100%"><title id="fjsi-ant-pushpin-o-title">icon pushpin-o</title><path d="M238.5 103q2 10 1 20l-1 36 29 23 214 170 30 24 37-12q44-15 90-15 49 0 95 16 26 10 51 24l-169 170-43 43-13 13-169 170q-27-45-36-96-13-72 10-141l12-37-24-30-170-214-23-29-36 1h-4q-8 0-16-1zm15-103q-14 0-24 10l-219 219q-11 11-9.5 27t14.5 24q48 31 104 31h6l170 215q-28 84-11.5 175.5T358.5 865q11 13 27 13 14 0 24-10l206-207 223 223q10 10 23.5 10t23-9.5 9.5-23-10-23.5l-223-223 206-207q11-11 10-26t-13-25q-98-80-226-80-57 0-112 18l-215-170q2-60-30-110-10-15-28-15z"></path></svg>
             <span className="ml-4">Alfred, NY</span>
           </a>
+          <div className="mt-4 h-64">
+            <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11812.443474393653!2d-77.7975740037964!3d42.254804877099694!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1531099586659" width="400" height="300" frameborder="0" allowfullscreen></iframe>
+          </div>
         </p>
         <h3 className="uppercase mb-4 py-4 border-b">
           Socialize
@@ -52,7 +55,7 @@ const Footer = () => (
           </a>
         </p>
       </div>
-      <div className="w-1/3 p-4">
+      <div className="w-full md:w-1/3 px-4 mb-8">
         <h3 className="uppercase mb-4 pb-4 border-b">
           About Us
         </h3>
@@ -64,7 +67,7 @@ const Footer = () => (
     </div>
     <div className="flex items-center justify-between p-4 text-sm">
       <div className="">
-        <p className="hover:text-white text-grey-light font-hairline">
+        <p className="hover:text-white text-grey-light font-hairline px-4">
           <a
             href="/"
             className="block flex items-center no-underline hover:text-white text-grey-dark"
@@ -78,7 +81,7 @@ const Footer = () => (
           </a>
         </p>
       </div>
-      <div className="float-right">
+      <div className="float-right px-4">
         <a
           href="https://github.com/derekphilipau/c10"
           className="no-underline hover:text-white text-grey-dark"
