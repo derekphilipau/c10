@@ -4,8 +4,9 @@ import Link from "gatsby-link";
 const IndexPage = () => (
     <div className="flex-1 w-100">
 
-      <div className="h-64 bg-black mb-8 pt-24 text-center">
-        <span className="text-5xl">Code is craft.</span>
+      <div className="h-64 bg-black mb-8 pt-16 text-center">
+        <p className="text-3xl font-extrabold text-orange mb-4">c10</p>
+        <p className="text-5xl font-hairline text-white">Code is craft.</p>
       </div>
 
       <div className="flex flex-wrap flex-row items-start px-4">
