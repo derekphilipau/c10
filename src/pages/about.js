@@ -96,7 +96,8 @@ const AboutPage = () => (
           <img className="w-full rounded shadow-lg" src={Portrait1} alt="John Doe"/>
           <div className="px-6 py-4">
             <div className="text-black font-bold text-xl mb-2">John Doe</div>
-            <p className="text-grey-dark text-base">
+            <div className="text-grey-dark font-bold uppercase text-sm mb-2">Founder</div>
+            <p className="text-grey-darker text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
             </p>
           </div>
@@ -108,7 +109,8 @@ const AboutPage = () => (
           <img className="w-full rounded shadow-lg" src={Portrait2} alt="James Black"/>
           <div className="px-6 py-4">
             <div className="text-black font-bold text-xl mb-2">James Black</div>
-            <p className="text-grey-dark text-base">
+            <div className="text-grey-dark font-bold uppercase text-sm mb-2">CTO</div>
+            <p className="text-grey-darker text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
             </p>
           </div>

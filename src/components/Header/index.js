@@ -1,6 +1,39 @@
 import React from "react";
 import Link from "gatsby-link";
 
+
+const headerLinks = [
+  {
+    name: "Home",
+    link: "/"
+  },
+  {
+    name: "Portfolio",
+    link: "/portfolio"
+  },
+  {
+    name: "About",
+    link: "/about"
+  },
+  {
+    name: "Contact",
+    link: "/contact"
+  }
+];
+
+const NavLink = props =>
+  <Link
+    exact
+    to={props.to}
+    activeStyle={{
+      color: '#8795A1',
+      textDecoration: 'underline'
+    }}
+    className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline hover:text-white text-grey-light font-light"
+    >
+    {props.name}
+  </Link>
+
 const Header = () => {
   const handleClick = function(e) {
     const el = document.getElementById("nav");
@@ -42,33 +75,10 @@ const Header = () => {
         className="hidden md:flex md:items-center w-full md:w-auto"
       >
         <div className="">
-          <Link
-            to="/"
-            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline hover:text-white text-grey-light font-light"
-          >
-            Home
-          </Link>
-
-          <Link
-            to="/portfolio"
-            className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline hover:text-white text-grey-light font-light"
-          >
-            Portfolio
-          </Link>
-
-          <Link
-            to="/about"
-            className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline hover:text-white text-grey-light font-light"
-          >
-            About
-          </Link>
-
-          <Link
-            to="/contact"
-            className="block md:inline-block mt-4 md:mt-0 no-underline hover:text-white text-grey-light font-light"
-          >
-            Contact
-          </Link>
+          <NavLink to="/" name="Home" />
+          <NavLink to="/portfolio" name="Portfolio" />
+          <NavLink to="/about" name="About" />
+          <NavLink to="/contact" name="Contact" />
         </div>
       </div>
     </nav>
