@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import Portrait from '../images/portrait/derek_800.jpg';
+import Portrait1 from '../images/about/portrait1.jpg';
+import Portrait2 from '../images/about/portrait2.jpg';
 import AboutHeader from '../images/header/about.jpg';
 
 const headerStyle = {
@@ -80,6 +81,42 @@ const AboutPage = () => (
       </div>
 
     </div>
+
+    <div className="flex flex-wrap bg-white p-8">
+      <div className="flex-1 w-full text-center">
+        <p className="text-5xl font-hairline text-orange mt-4">Teamwork.</p>
+        <p className="text-2xl font-bold text-black mt-2">Our Team</p>
+      </div>
+    </div>
+
+    <div className="flex flex-wrap bg-white p-8">
+
+      <div className="w-full md:w-1/2 px-4 mb-8 flex-auto">
+        <div className="max-w-sm">
+          <img className="w-full rounded shadow-lg" src={Portrait1} alt="John Doe"/>
+          <div className="px-6 py-4">
+            <div className="text-black font-bold text-xl mb-2">John Doe</div>
+            <p className="text-grey-dark text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full md:w-1/2 px-4 mb-8 flex-auto">
+        <div className="max-w-sm">
+          <img className="w-full rounded shadow-lg" src={Portrait2} alt="James Black"/>
+          <div className="px-6 py-4">
+            <div className="text-black font-bold text-xl mb-2">James Black</div>
+            <p className="text-grey-dark text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
 
     <div className="flex flex-wrap flex-row items-start mt-8">
       <div className="w-full md:w-1/2 lg:w-1/2 px-4">
