@@ -82,14 +82,14 @@ const AboutPage = () => (
 
     </div>
 
-    <div className="flex flex-wrap bg-white p-8">
+    <div className="flex flex-wrap bg-grey-lighter p-8">
       <div className="flex-1 w-full text-center">
         <p className="text-5xl font-hairline text-orange mt-4">Teamwork.</p>
         <p className="text-2xl font-bold text-black mt-2">Our Team</p>
       </div>
     </div>
 
-    <div className="flex flex-wrap bg-white p-8">
+    <div className="flex flex-wrap bg-grey-lighter p-8">
 
       <div className="w-full md:w-1/2 px-4 mb-8 flex-auto">
         <div className="max-w-sm">
@@ -118,7 +118,7 @@ const AboutPage = () => (
     </div>
 
 
-    <div className="flex flex-wrap flex-row items-start mt-8">
+    <div className="flex flex-wrap flex-row items-start mt-8 py-8">
       <div className="w-full md:w-1/2 lg:w-1/2 px-4">
         <div className="h-64 w-full rounded shadow bg-grey p-3 mb-4">b</div>
         <div className="h-32 w-full rounded p-3 mb-4">

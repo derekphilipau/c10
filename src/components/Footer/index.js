@@ -5,14 +5,14 @@ const Footer = () => (
   <div className="bg-black pt-8">
     <div className="flex flex-wrap flex-row items-stretch justify-between p-4 text-sm">
       <div className="w-full md:w-1/3 px-4 mb-8 flex-auto">
-        <h3 className="uppercase mb-6 pb-4 border-b">Get in touch</h3>
+        <h3 className="text-white uppercase mb-6 pb-4 border-b">Get in touch</h3>
         <p className="mb-4">
         Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
         </p>
         <ContactForm />
       </div>
       <div className="w-full md:w-1/3 px-4 mb-8 flex-none">
-        <h3 className="uppercase mb-4 pb-4 border-b">
+        <h3 className="text-white uppercase mb-4 pb-4 border-b">
           Contact Info
         </h3>
         <p className="py-2">
@@ -41,14 +41,14 @@ const Footer = () => (
         </p>
       </div>
       <div className="w-full md:w-1/3 px-4 mb-8">
-        <h3 className="uppercase mb-4 pb-4 border-b">
+        <h3 className="text-white uppercase mb-4 pb-4 border-b">
           About Us
         </h3>
         <p className="py-2">
           Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae ornare massa, at consequat ipsum. Sed ullamcorper, dui consequat vehicula volutpat dolor.
         </p>
-        <h3 className="uppercase mb-4 py-4 border-b">
+        <h3 className="text-white uppercase mb-4 py-4 border-b">
           Socialize
         </h3>
         <p className="py-2">
