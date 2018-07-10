@@ -9,6 +9,15 @@ import Video from "../images/portfolio/video_square.jpg";
 const PortfolioPage = () => (
   <div className="flex-1 w-100">
     <div className="bg-black p-8">
+      <div className="mb-8">
+        <p className="text-5xl font-hairline text-white">Robert Redford</p>
+        <p className="text-2xl font-hairline text-orange mt-1">Digital Product Designer</p>
+        <p className="text-grey font-light text-sm mt-2">
+          I produce elegant solutions with a human-centered design approach,
+          Feel free to get in touch with me via email.
+        </p>
+      </div>
+
       <Breadcrumbs />
 
       <div className="flex flex-wrap flex-row items-stretch justify-between p-4 mt-8 text-sm">
